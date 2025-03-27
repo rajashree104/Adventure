@@ -33,7 +33,7 @@ color: var(--font-light-color);
 
 a{
     font-family:inherity;
-    color: inherity;
+    color: var(--white-color);
 }
 
 `;
