@@ -64,7 +64,10 @@ border-right: 8px solid var(--border-color);
 }
 .nav-items{
     width: 100%;
-    text-align:center ;
+    text-align:center;
+    .active-class{
+        background-color: var(--primary-color);
+    }
     li{
 display:block;
 a{
@@ -84,10 +87,11 @@ bottom: 0;
 left: 0;
 width: 0;
 height:50%;
-background-color: #a4acc4;
-transition: All 0.4s cubic-bezier(1.-0.2,.25,.95);
+background-color: var(--primary-color);
+transition: All 0.4s cubic-bezier(1,-0.2,.25,.95);
 opacity:0.21;
 z-index:10;
+transform-origin:right;
 }
     }
     a:hover::before{
