@@ -32,7 +32,7 @@ color: var(--font-light-color);
 }
 
 a{
-    font-family:inherity;
+    /* font-family:inherity; */
     color: var(--white-color);
 }
 
