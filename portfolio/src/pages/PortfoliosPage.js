@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function PortfoliosPage() {
+function PortfoliosPage() {
   return (
     <div>PortfoliosPage</div>
   )
 }
+
+export default PortfoliosPage
