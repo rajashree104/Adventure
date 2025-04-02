@@ -1,5 +1,6 @@
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -11,11 +12,9 @@ function App() {
           <div className="line-1"></div>
           <div className="line-2"></div>
           <div className="line-3"></div>
-
           <div className="line-4"></div>
-
-
         </div>
+        <HomePage />
       </MainContentStyled>
     </div>
   );

@@ -72,9 +72,13 @@ border-right: 8px solid var(--border-color);
 display:block;
 a{
     display:block;
-padding: .2rem 0;
+padding: .45rem 0;
 position:relative;
-z-index:4;
+z-index:10;
+text-transform:uppercase;
+transition: All 0.4s ease-in-out;
+font-weight:600;
+letter-spacing:1px;
 
 &:hover{
     cursor: pointer;

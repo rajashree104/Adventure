@@ -34,8 +34,19 @@ color: var(--font-light-color);
 a{
     /* font-family:inherity; */
     color: var(--white-color);
-}
+    font-size: 1rem;
 
+}
+h1{
+    font-size:3rem;
+    color: var(--white-color);
+    span{
+        font-size: 2rem;
+    }
+}
+span{
+    color: var(--primary-color);
+}
 `;
 
 export default GlobalStyle;
